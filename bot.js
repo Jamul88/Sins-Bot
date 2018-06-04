@@ -127,6 +127,11 @@ client.on("message", async message => {
     return message.channel.send("19 cm amk");
   }
 
+  
+  
+   if (command === "Cock") { 
+    return message.channel.send("https://www.bing.com/images/search?view=detailV2&ccid=8Nl%2foEee&id=7A6037BBE075C4E3DAF2C5BEFA1014CA195FB9E0&thid=OIP.8Nl_oEeeteoSl_jnagSYuQHaEK&mediaurl=https%3a%2f%2fi.ytimg.com%2fvi%2fQapgPCF6LiI%2fmaxresdefault.jpg&exph=720&expw=1280&q=johnny+sins&simid=608048787442696435&selectedIndex=25&ajaxhist=0");
+  }
   if (command === "sinstv") { 
     return message.channel.send("https://www.youtube.com/channel/UCRAWGR5ySuIDNrotce8pI3w");
   }
