@@ -55,7 +55,7 @@ client.on("message", async message => {
   if(command === "ping") {
     // Calculates ping between sending a message and editing it, giving a nice round-trip latency.
     // The second ping is an average latency between the bot and the websocket server (one-way, not round-trip)
-    const m = await message.channel.send("https://de.pornhub.com/pornstar/johnny-sins");
+    const m = await message.channel.send("subscribe on my cockverthailungs channel");
     m.edit(`Pong! Latency is ${m.createdTimestamp - message.createdTimestamp}ms. API Latency is ${Math.round(client.ping)}ms`);
   }
   
@@ -116,14 +116,17 @@ client.on("message", async message => {
       .catch(error => message.reply(`Sorry ${message.author} I couldn't ban because of : ${error}`));
     message.reply(`${member.user.tag} has been banned by ${message.author.tag} because: ${reason}`);
   }
-  
+   
+  if (command === "zoroark") { 
+    return message.channel.send("http://rule34-data-006.paheal.net/_images/51dce54a41c101b1777839dc13ded501/2022978%20-%20Calem%20Porkyman%20Teddy_Jack%20Zoroark.jpg");
+  }
   if (command === "sinstvph") { 
     return message.channel.send("https://de.pornhub.com/pornstar/johnny-sins");
   }
   if (command === "kissa") { 
     return message.channel.send("This pussy belongs to me you hurensohn");
   }
-   if (command === "yarak") { 
+  if (command === "yarak") { 
     return message.channel.send("19 cm amk");
   }
   if (command === "cockverteilung") { 
