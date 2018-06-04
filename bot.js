@@ -118,7 +118,7 @@ client.on("message", async message => {
   }
    
   if (command === "zoroark") { 
-    return message.channel.send("http://rule34-data-006.paheal.net/_images/51dce54a41c101b1777839dc13ded501/2022978%20-%20Calem%20Porkyman%20Teddy_Jack%20Zoroark.jpg");
+    return message.channel.send("https://static1.e621.net/data/d3/c8/d3c8efc5959f7b4f8e30738752799c45.jpg");
   }
   if (command === "sinstvph") { 
     return message.channel.send("https://de.pornhub.com/pornstar/johnny-sins");
