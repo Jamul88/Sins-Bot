@@ -55,7 +55,7 @@ client.on("message", async message => {
   if(command === "ping") {
     // Calculates ping between sending a message and editing it, giving a nice round-trip latency.
     // The second ping is an average latency between the bot and the websocket server (one-way, not round-trip)
-    const m = await message.channel.send("Ping?");
+    const m = await message.channel.send("https://de.pornhub.com/pornstar/johnny-sins");
     m.edit(`Pong! Latency is ${m.createdTimestamp - message.createdTimestamp}ms. API Latency is ${Math.round(client.ping)}ms`);
   }
   
@@ -130,7 +130,7 @@ client.on("message", async message => {
     return message.channel.send("https://cdn.discordapp.com/attachments/381571906177990659/453254218803838986/20180604_194957.png");
  }
    if (command === "cock") { 
-    return message.channel.send("https://pic.gaytorrent.ru/tpics/2016/48/08455595.jpg Wanna lick it?");
+    return message.channel.send("https://pic.gaytorrent.ru/tpics/2016/48/08455595.jpg Wanna lick it? Oh yes very good job mmoncif");
   }
   if (command === "sinstv") { 
     return message.channel.send("https://www.youtube.com/channel/UCRAWGR5ySuIDNrotce8pI3w");
