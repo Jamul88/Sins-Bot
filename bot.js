@@ -116,7 +116,17 @@ client.on("message", async message => {
       .catch(error => message.reply(`Sorry ${message.author} I couldn't ban because of : ${error}`));
     message.reply(`${member.user.tag} has been banned by ${message.author.tag} because: ${reason}`);
   }
-   
+ 
+  meme1 retarded = "./ya kalb/meme1 retarded"; meme2 korea= "./ya kalb/meme2 korea"; meme3 reso = "./ya kalb/meme3 reso";
+  if (msg.includes ("meme")) {
+      number = 3;
+      var random = math.floor (math.random() * (number -1 + 1 )) + 1;
+      case 1: message.channel.send ({ files: [meme1 retarded] }); break;
+      case 2: message.channel.send ({ files: [meme2 korea] }); break;
+      case 3: message.channel.send ({ files: [meme3 reso] }); break;
+  }
+}  
+  
   if (command === "zoroark") { 
     return message.channel.send("https://static1.e621.net/data/d3/c8/d3c8efc5959f7b4f8e30738752799c45.jpg");
   }
