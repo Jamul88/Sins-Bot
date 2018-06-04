@@ -130,7 +130,7 @@ client.on("message", async message => {
     return message.channel.send("https://cdn.discordapp.com/attachments/381571906177990659/453254218803838986/20180604_194957.png");
  }
    if (command === "cock") { 
-    return message.channel.send("https://pic.gaytorrent.ru/tpics/2016/48/08455595.jpg, lel");
+    return message.channel.send("https://pic.gaytorrent.ru/tpics/2016/48/08455595.jpg lel");
   }
   if (command === "sinstv") { 
     return message.channel.send("https://www.youtube.com/channel/UCRAWGR5ySuIDNrotce8pI3w");
