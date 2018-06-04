@@ -2,7 +2,7 @@
   "name": "Sins-Bot",
   "version": "1.0.0",
   "description": "My cockie biggie brudi",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
