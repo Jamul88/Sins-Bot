@@ -117,7 +117,15 @@ client.on("message", async message => {
     message.reply(`${member.user.tag} has been banned by ${message.author.tag} because: ${reason}`);
   }
   
-
+  if (command === "sinstvph") { 
+    return message.channel.send("https://de.pornhub.com/pornstar/johnny-sins");
+  }
+  if (command === "kissa") { 
+    return message.channel.send("This pussy belongs to me you hurensohn");
+  }
+   if (command === "yarak") { 
+    return message.channel.send("19 cm amk");
+  }
 
   if (command === "sinstv") { 
     return message.channel.send("https://www.youtube.com/channel/UCRAWGR5ySuIDNrotce8pI3w");
