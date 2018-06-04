@@ -126,11 +126,11 @@ client.on("message", async message => {
    if (command === "yarak") { 
     return message.channel.send("19 cm amk");
   }
-
-  
-  
+  if (command === "cockverteilung") { 
+    return message.channel.send("https://cdn.discordapp.com/attachments/381571906177990659/453254218803838986/20180604_194957.png");
+ }
    if (command === "cock") { 
-    return message.channel.send("http://i1.kym-cdn.com/photos/images/facebook/001/176/216/122.png");
+    return message.channel.send("https://pic.gaytorrent.ru/tpics/2016/48/08455595.jpg");
   }
   if (command === "sinstv") { 
     return message.channel.send("https://www.youtube.com/channel/UCRAWGR5ySuIDNrotce8pI3w");
