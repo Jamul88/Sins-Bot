@@ -150,7 +150,7 @@ client.on("message", async message => {
     return message.channel.send("Subscribe my youtube Channel SinsTV");
   }
   else if(command === "help") {
-   message.author.sendMessage("You want to know what Sins-Bot can do? Then you're in the wrong website here you can see it<br> https://de.pornhub.com/pornstar/johnny-sins "); return;
+   message.author.sendMessage("You want to know what Sins-Bot can do? Then you're in the wrong website here you can see it https://de.pornhub.com/pornstar/johnny-sins "); return;
   } 
  else {
     message.channel.send("You have a tiny Cock");
