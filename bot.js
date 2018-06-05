@@ -158,8 +158,8 @@ client.on("message", async message => {
     return;
   }
   if(command === "help") {
-   message.author.sendMessage("prefix=+
-                              cock"); return;
+   message.author.sendMessage("prefix=+;
+   "); return;
   } 
   
 });
