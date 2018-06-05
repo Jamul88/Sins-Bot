@@ -152,14 +152,14 @@ client.on("message", async message => {
   if (command === "sins") { 
     return message.channel.send("Subscribe my youtube Channel SinsTV");
   }
-  
+  else if(command === "help") {
+   message.author.sendMessage("lel, ROFL"); return;
+  } 
  else {
     message.channel.send("You have a tiny Cock");
     return;
   }
-  else if(command === "help") {
-   message.author.sendMessage("lel, ROFL"); return;
-  } 
+
   
 });
 
