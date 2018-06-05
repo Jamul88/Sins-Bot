@@ -158,8 +158,7 @@ client.on("message", async message => {
     return;
   }
   if(command === "help") {
-   message.author.sendMessage("lel
-   "); return;
+   message.author.sendMessage("lel;"); return;
   } 
   
 });
