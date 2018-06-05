@@ -132,7 +132,7 @@ client.on("message", async message => {
     return message.channel.send("19 cm amk");
   }
   if (command === "cockverteilung") { 
-    return message.channel.send("https://cdn.discordapp.com/attachments/381571906177990659/453254218803838986/20180604_194957.png");
+    return message.channel.send("https://cdn.discordapp.com/attachments/381571906177990659/453254218803838986/20180604_194957.png Daniel is a perv ROFL");
  }
    if (command === "cock") { 
     return message.channel.send("https://pic.gaytorrent.ru/tpics/2016/48/08455595.jpg Wanna lick it?");
@@ -149,10 +149,18 @@ client.on("message", async message => {
   if (command === "johnny") { 
     return message.channel.send("Subscribe my youtube Channel SinsTV");
   }
+  if (command === "") { 
+    return message.channel.send("Subscribe my youtube Channel SinsTV");
+  }
+  
  else {
     message.channel.send("You have a tiny Cock");
     return;
   }
+  if(command === "help") {
+   message.author.sendMessage("prefix=+
+                              cock"); return;
+  } 
   
 });
 
