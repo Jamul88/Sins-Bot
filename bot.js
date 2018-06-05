@@ -158,7 +158,7 @@ client.on("message", async message => {
     return;
   }
   if(command === "help") {
-   message.author.sendMessage("prefix=+;
+   message.author.sendMessage("lel
    "); return;
   } 
   
