@@ -149,7 +149,7 @@ client.on("message", async message => {
   if (command === "johnny") { 
     return message.channel.send("Subscribe my youtube Channel SinsTV");
   }
-  if (command === "") { 
+  if (command === "sins") { 
     return message.channel.send("Subscribe my youtube Channel SinsTV");
   }
   
@@ -157,7 +157,7 @@ client.on("message", async message => {
     message.channel.send("You have a tiny Cock");
     return;
   }
-  if(command === "help") {
+  else if(command === "help") {
    message.author.sendMessage("lel, ROFL"); return;
   } 
   
