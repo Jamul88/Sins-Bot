@@ -156,6 +156,13 @@ client.on("message", async message => {
     message.channel.send("You have a tiny Cock");
     return; 
   }
+  if (command === "sucuk" || command === "sucuk") {
+
+            message.channel.send(Hello ${message.author.toString()});
+
+            return; 
+
+        }
 
   
 });
