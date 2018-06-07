@@ -156,7 +156,7 @@ client.on("message", async message => {
     message.channel.send("You have a tiny Cock");
     return; 
   }
- if(message.content.startsWith (":eyes:")) {
+ if (message.content.startsWith (":eyes:")) {
     message.channel.send (":eyes:");
  }
 
