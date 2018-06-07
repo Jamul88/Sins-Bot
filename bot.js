@@ -50,9 +50,17 @@ client.on("message", async message => {
   const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
   
-  client.on('message', message => { if (message.content === '!play') { // Note that this will only work if the message was sent in a guild // and the author is actually in a voice channel. // You might want to check for all that stuff first const channel = message.member.voiceChannel; channel.join() .then(connection => console.log('Connected!')) .catch(console.error); } });
-  
-  // Let's go with a few common example commands! Feel free to delete or change those.
+  client.on('message', message => {
+  if (message.content === '!play') {
+    
+    const channel = message.member.voiceChannel;
+
+    channel.join()
+    .then(connection => console.log('Connected!'))
+    .catch(console.error);
+  }
+});
+
   
   if(command === "ping") {
     // Calculates ping between sending a message and editing it, giving a nice round-trip latency.
