@@ -50,6 +50,8 @@ client.on("message", async message => {
   const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
   
+  client.on('message', message => { if (message.content === '!play') { // Note that this will only work if the message was sent in a guild // and the author is actually in a voice channel. // You might want to check for all that stuff first const channel = message.member.voiceChannel; channel.join() .then(connection => console.log('Connected!')) .catch(console.error); } });
+  
   // Let's go with a few common example commands! Feel free to delete or change those.
   
   if(command === "ping") {
@@ -118,7 +120,9 @@ client.on("message", async message => {
   }
  
   
-  
+  if (command === "johnny ebony") { 
+    return message.channel.send("Subscribe my youtube Channel SinsTV");
+  }
   if (command === "zoroark") { 
     return message.channel.send("https://static1.e621.net/data/d3/c8/d3c8efc5959f7b4f8e30738752799c45.jpg");
   }
