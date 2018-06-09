@@ -26,12 +26,6 @@ client.on("guildDelete", guild => {
 
 client.on("message", async message => {
  
-var rand = Math.floor(Math.random() * rands.length); 
-message.channel.send("rawr", rands[rand]);
- 
-var images = ["meme1 retarded.png,""meme2 korean.png ,""meme3 reso.png,"];
-var rand = Math.floor(Math.random() * images.length);
-var randomImage = images[rand];
 
 console.log( randomImage )
 message.channel.send("rawr", randomImage);
