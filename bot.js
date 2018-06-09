@@ -26,9 +26,6 @@ client.on("guildDelete", guild => {
 
 client.on("message", async message => {
  
-
-console.log( randomImage )
-message.channel.send("rawr", randomImage);
  
   if(message.author.bot) return;
   
