@@ -95,7 +95,7 @@ client.on("message", async message => {
  
   
   if (command === "johnny-ebony") { 
-    return message.channel.send("I dont like these ebony kahbas");
+    return message.channel.send("I dont like these ebony kahbas,They#re too black");
   }
   if (command === "zoroark") { 
     return message.channel.send("https://static1.e621.net/data/d3/c8/d3c8efc5959f7b4f8e30738752799c45.jpg");
