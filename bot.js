@@ -25,7 +25,17 @@ client.on("guildDelete", guild => {
 
 
 client.on("message", async message => {
-  
+ 
+var rand = Math.floor(Math.random() * rands.length); 
+message.channel.send("rawr", rands[rand]);
+ 
+var images = [".","","./catboy/cb3.jpg","./catboy/cb4.jpg"];
+var rand = Math.floor(Math.random() * images.length);
+var randomImage = images[rand];
+
+console.log( randomImage ) // The one to send
+// message.channel.send("rawr", randomImage);
+ 
   if(message.author.bot) return;
   
 
@@ -134,10 +144,7 @@ client.on("message", async message => {
     message.channel.send("You have a tiny Cock");
     return; 
   }
- if (message.content.startsWith (":eyes:")) {
-    message.channel.send (":eyes:");
- }
-
+ 
   
 });
 
