@@ -128,7 +128,7 @@ client.on("message", async message => {
   if (command === "sins") { 
     return message.channel.send("Subscribe my youtube Channel SinsTV");
   }
-  if (command === "BJ") { 
+  if (command === "bj") { 
     return message.channel.send("https://de.pornhub.com/photo/181126432");
   }
   else if(command === "help") {
