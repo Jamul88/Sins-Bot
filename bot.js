@@ -129,7 +129,7 @@ client.on("message", async message => {
     return message.channel.send("Subscribe my youtube Channel SinsTV");
   }
   if (command === "bj") { 
-    return message.channel.send("https://de.pornhub.com/photo/181126432");
+    return message.channel.send("https://de.pornhub.com");
   }
   else if(command === "help") {
    message.author.sendMessage("You want to know what Sins-Bot can do? Then you're in the wrong website here you can see it https://de.pornhub.com/pornstar/johnny-sins "); return;
