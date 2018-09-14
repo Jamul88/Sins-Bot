@@ -128,8 +128,8 @@ client.on("message", async message => {
   if (command === "sins") { 
     return message.channel.send("Subscribe my youtube Channel SinsTV");
   }
-  if (command === "gay") { 
-    return message.channel.send("https://www.instagram.com/p/Bd7vQS9H2vE/?taken-by=alles__nur__memes i am not gay :eggplant: :yum:");
+  if (command === "masturbate") { 
+    return message.channel.send("http://pompuseyes.com/wp-content/uploads/2014/11/POMPUSEYES-73.gif");
   }
   else if(command === "help") {
    message.author.send.Message("You want to know what Sins-Bot can do? Then you're in the wrong website here you can see it https://de.pornhub.com/pornstar/johnny-sins "); return;
