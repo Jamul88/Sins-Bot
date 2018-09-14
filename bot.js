@@ -135,7 +135,7 @@ client.on("message", async message => {
     return message.channel.send("https://images2.memedroid.com/images/UPLOADED43/52d61f17515c0.jpeg");
   }
   if (command === "hkn") { 
-    return message.channel.send("https://drive.google.com/open?id=1CAcZrk6FZPZVqY__YFFf7gSgvuIlG09t");
+    return message.channel.send("muäääd");
   }
   else if(command === "help") {
    message.author.send.Message("You want to know what Sins-Bot can do? Then you're in the wrong website here you can see it https://de.pornhub.com/pornstar/johnny-sins "); return;
