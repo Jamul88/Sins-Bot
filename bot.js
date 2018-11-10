@@ -137,6 +137,9 @@ client.on("message", async message => {
   if (command === "hkn") { 
     return message.channel.send("https://i.imgur.com/fvT8oPW.jpg");
   }
+  if (command === "nnn") {
+    return message.channel.send("https://www.youtube.com/watch?v=9LsfSnb9_u0");
+  }
   else if(command === "help") {
    message.author.send.Message("You want to know what Sins-Bot can do? Then you're in the wrong website here you can see it https://de.pornhub.com/pornstar/johnny-sins "); return;
   } 
