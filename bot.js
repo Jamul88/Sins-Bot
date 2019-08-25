@@ -96,7 +96,7 @@ client.on("message", async message => {
  
   
   if (command === "johnny-ebony") { 
-    return message.channel.send("I dont like these ebony kahbas,They#re too black");
+    return message.channel.send("I dont like these ebony kahbas,They're too black");
   }
   if (command === "zoroark") { 
     return message.channel.send("https://static1.e621.net/data/d3/c8/d3c8efc5959f7b4f8e30738752799c45.jpg");
@@ -139,6 +139,9 @@ client.on("message", async message => {
   }
   if (command === "nnn") {
     return message.channel.send("https://www.youtube.com/watch?v=9LsfSnb9_u0");
+  }
+  if (command === "fisting") {
+    return message.channel.send("https://i3.kym-cdn.com/photos/images/facebook/001/034/961/a63.jpg");
   }
   else if(command === "help") {
    message.author.send.Message("You want to know what Sins-Bot can do? Then you're in the wrong website here you can see it https://de.pornhub.com/pornstar/johnny-sins "); return;
