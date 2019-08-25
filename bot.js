@@ -143,10 +143,13 @@ client.on("message", async message => {
   if (command === "fisting") {
     return message.channel.send("https://i3.kym-cdn.com/photos/images/facebook/001/034/961/a63.jpg");
   }
+  if (command === "shemale") {
+    return message.channel.send("did you just say woman with dick? https://i.pinimg.com/736x/d4/ea/96/d4ea96513ee0d56ff0897d88d9e5ba5c.jpg");
+  }
   else if(command === "help") {
    message.author.send.Message("You want to know what Sins-Bot can do? Then you're in the wrong website here you can see it https://de.pornhub.com/pornstar/johnny-sins "); return;
   } 
- else {
+  else {
     message.channel.send("Is this a fucking joke! http://c11.incisozluk.com.tr/res/incisozluk/11008/7/318747_oe697.jpg");
     return; 
   }
