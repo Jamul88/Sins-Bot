@@ -144,7 +144,7 @@ client.on("message", async message => {
    message.author.send.Message("You want to know what Sins-Bot can do? Then you're in the wrong website here you can see it https://de.pornhub.com/pornstar/johnny-sins "); return;
   } 
  else {
-    message.channel.send("http://c11.incisozluk.com.tr/res/incisozluk/11008/7/318747_oe697.jpg");
+    message.channel.send("Is this a fucking joke! http://c11.incisozluk.com.tr/res/incisozluk/11008/7/318747_oe697.jpg");
     return; 
   }
  
