@@ -123,8 +123,7 @@ client.on("message", async message => {
     return message.channel.send("Public is the funniest way to fuck kahbes");
   }
   if (command === "Anal") { 
-    return message.channel.send("Yeeees give me your Anis! https://pbs.twimg.com/profile_images/1029453415745708032/qUgMB6HI_400x400.jpg
-");
+    return message.channel.send("Yeeees give me your Anis! https://pbs.twimg.com/profile_images/1029453415745708032/qUgMB6HI_400x400.jpg");
   }
   if (command === "sins") { 
     return message.channel.send("Subscribe my youtube Channel SinsTV");
