@@ -122,7 +122,7 @@ client.on("message", async message => {
   if (command === "category") { 
     return message.channel.send("Public is the funniest way to fuck kahbes");
   }
-  if (command === "Anal") { 
+  if (command === "anal") { 
     return message.channel.send("Yeeees give me your Anis! https://pbs.twimg.com/profile_images/1029453415745708032/qUgMB6HI_400x400.jpg");
   }
   if (command === "sins") { 
